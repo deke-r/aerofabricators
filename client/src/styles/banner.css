@@ -1,0 +1,65 @@
+.slide-sub-title {
+    font-size: 72px;
+    line-height: 1.1;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    color: #fff !important;
+  }
+  
+  .slide-title {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .slide-small-subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    white-space: pre-line; /* To handle \n line breaks */
+  }
+  
+  /* Responsive font sizes */
+  @media (max-width: 991px) {
+    .slide-title {
+      font-size: 54px;
+    }
+    .slide-sub-title {
+      font-size: 38px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .slide-title {
+      font-size: 32px;
+    }
+    .slide-sub-title {
+      font-size: 24px;
+    }
+  }
+  
+  /* Button styles */
+  .slider-btn {
+    background-color: transparent !important;
+    border: 2px solid var(--secondary-color) !important;
+    color: var(--secondary-color) !important;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .slider-btn:hover {
+    background-color: var(--secondary-color) !important;
+    color: #fff !important;
+  }
+  
+  /* Orange button */
+  .btn-orange {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: #fff !important;
+  }
+  
