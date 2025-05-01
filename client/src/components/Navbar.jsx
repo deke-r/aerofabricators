@@ -80,10 +80,10 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to={import.meta.env.VITE_ABOUTUS_PAGE}>About Us</Link>
+              <Link className="nav-link" to='/about'>About Us</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={import.meta.env.VITE_CONTACT_PAGE}>Contact Us</Link>
+              <Link className="nav-link" to='/contact'>Contact Us</Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,79 @@
+.why-choose-us-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .why-choose-us-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .why-choose-us-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .why-choose-us-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Increased gap */
+  }
+  
+  .why-choose-us-card {
+    flex: 1 1 200px;           /* Smaller width */
+    max-width: 200px;          /* Limit the width */
+    min-width: 180px;
+  }
+  
+  .why-choose-us-card-inner {
+    background: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .why-choose-us-card-inner:hover {
+    transform: translateY(-5px);
+  }
+  
+  .why-choose-us-img {
+    width: 100px;
+    height: auto;
+    margin-top: -50px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+  }
+  
+  .why-choose-us-body {
+    text-align: center;
+  }
+  
+  .why-choose-us-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .why-choose-us-card {
+      flex: 1 1 45%;
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .why-choose-us-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  

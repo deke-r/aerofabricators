@@ -1,0 +1,173 @@
+.contact-wrap {
+    position: relative;
+    padding: 4rem 0;
+  }
+  
+  .contact-wrap::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/contact_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 468px;
+    z-index: -1;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0rem;
+  }
+  
+  .form-wrap {
+    background: #fff;
+    padding: 40px 26px;
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+    flex: 1 1 45%;
+    max-width: 480px;  }
+  
+  .form-wrap h2 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-top: 10px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline-color: var(--primary-color);
+  }
+  
+  
+  .refresh-btn button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .Contact_sub {
+    position: relative;
+    margin-top: 25px;
+    color: white;
+    z-index: 1;
+  }
+  
+  .Contact_sub::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    transition: 0.4s;
+    z-index: 0;
+    color: white;
+    z-index: -1;
+    
+  }
+  
+  .Contact_sub:hover::before {
+    width: 5px;
+  }
+  
+  .Contact_sub::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: var(--primary-color);
+    transition: 0.4s;
+    z-index: 0;
+    z-index: -1;
+
+  }
+  
+  .Contact_sub:hover::after {
+    width: 100%;
+  }
+  
+
+  button.btn {
+    padding: 10px 20px;
+    z-index: 2; /* Ensure the button text appears above the pseudo-elements */
+  }
+
+  
+  .Contact_sub:hover .btn {
+    color: #f4f4f4;
+  }
+  
+  .contact-information {
+    background: var(--primary-color);
+    padding: 60px 25px 20px;
+    max-width: 360px;
+    flex: 1 1 35%;
+    color: #fff;
+  }
+  
+  .contact-information h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  
+  .contact-information ol {
+    list-style: none;
+    counter-reset: steps;
+    padding-left: 0;
+  }
+  
+  .contact-information li {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 47px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  .contact-information li::before {
+    counter-increment: steps;
+    content: counter(steps);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+  }
+  
+
+  .error {
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  

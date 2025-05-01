@@ -228,7 +228,7 @@ a{
 
 
 
-.ts-service-icon {
+.ts-service-iconc {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -263,3 +263,54 @@ a{
   font-size: 1rem;
   color: #fff;
 }
+
+
+.map-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.map-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #134377;
+  font-weight: 600;
+}
+
+.map-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+.bg-b{
+  background-color: var(--primary-color);
+  color: #fff !important
+}
+
+
+.service-menu li {
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
+  padding: 20px 10px !important;
+}
+
+.service-menu li:hover {
+  background-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+

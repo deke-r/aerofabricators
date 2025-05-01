@@ -17,7 +17,7 @@ const ContactInfoSection = () => {
           {/* Visit Our Office */}
           <div className="col-md-4 py-2">
             <div className="ts-service-box-bg text-center h-100">
-              <span className="ts-service-icon icon-round">
+              <span className="ts-service-iconc icon-round">
                 <i className="fas fa-map-marker-alt mr-0"></i>
               </span>
               <div className="ts-service-box-content">
@@ -30,7 +30,7 @@ const ContactInfoSection = () => {
           {/* Email Us */}
           <div className="col-md-4 py-2 ">
             <div className="ts-service-box-bg text-center h-100">
-              <span className="ts-service-icon">
+              <span className="ts-service-iconc">
                 <i className="fa fa-envelope mr-0"></i>
               </span>
               <div className="ts-service-box-content">
@@ -43,7 +43,7 @@ const ContactInfoSection = () => {
           {/* Call Us */}
           <div className="col-md-4 py-2">
             <div className="ts-service-box-bg text-center h-100">
-              <span className="ts-service-icon icon-round">
+              <span className="ts-service-iconc icon-round">
                 <i className="fa fa-phone-square mr-0"></i>
               </span>
               <div className="ts-service-box-content">

@@ -19,10 +19,10 @@
   .slide-small-subtitle {
     font-size: 20px;
     margin-top: 10px;
-    white-space: pre-line; /* To handle \n line breaks */
+    white-space: pre-line; 
   }
   
-  /* Responsive font sizes */
+ 
   @media (max-width: 991px) {
     .slide-title {
       font-size: 54px;
@@ -41,7 +41,7 @@
     }
   }
   
-  /* Button styles */
+ 
   .slider-btn {
     background-color: transparent !important;
     border: 2px solid var(--secondary-color) !important;
@@ -56,10 +56,10 @@
     color: #fff !important;
   }
   
-  /* Orange button */
   .btn-orange {
     background-color: var(--secondary-color) !important;
     border-color: var(--secondary-color) !important;
     color: #fff !important;
   }
   
+
