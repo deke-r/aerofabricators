@@ -41,44 +41,46 @@ const BannerCarousel = () => {
   ];
 
   return (
-    <Carousel fade interval={4000} className="banner-carousel">
-      {slides.map((slide, idx) => (
-        <Carousel.Item
-          key={idx}
-          style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(${slide.background})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            height: "90vh",
-          }}
-        >
-          <div className={`slider-content ${slide.align} h-100 d-flex align-items-center`}>
-            <Container>
-              <Row>
-                <Col md={12}>
-                  <h2 className="slide-title text-light text-uppercase">{slide.title}</h2>
-                  <h3 className="slide-sub-title text-uppercase">{slide.subtitle}</h3>
-                  {slide.subsubtitle && (
-                    <h4 className="slide-small-subtitle text-light">{slide.subsubtitle}</h4>
-                  )}
-                  <div className="mt-3">
-                    {slide.buttons.map((btn, i) => (
-                      <Button
-                        key={i}
-                        href={btn.href}
-                        className={`slider-btn ${btn.type === "orange" ? "btn-orange" : ""} rounded-0 me-2`}
-                      >
-                        {btn.label}
-                      </Button>
-                    ))}
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </Carousel.Item>
-      ))}
-    </Carousel>
+<Carousel fade interval={4000} className="banner-carousel">
+  {slides.map((slide, idx) => (
+    <Carousel.Item
+      key={idx}
+      className="carousel-item-custom"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(${slide.background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "90vh",
+      }}
+    >
+      <div className={`slider-content ${slide.align} h-100 d-flex align-items-center`}>
+        <Container>
+          <Row>
+            <Col md={12}>
+              <h2 className="slide-title text-light text-uppercase">{slide.title}</h2>
+              <h3 className="slide-sub-title text-uppercase">{slide.subtitle}</h3>
+              {slide.subsubtitle && (
+                <h4 className="slide-small-subtitle text-light">{slide.subsubtitle}</h4>
+              )}
+              <div className="mt-3">
+                {slide.buttons.map((btn, i) => (
+                  <Button
+                    key={i}
+                    href={btn.href}
+                    className={`slider-btn ${btn.type === "orange" ? "btn-orange" : ""} rounded-0 me-2`}
+                  >
+                    {btn.label}
+                  </Button>
+                ))}
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </Carousel.Item>
+  ))}
+</Carousel>
+
   );
 };
 

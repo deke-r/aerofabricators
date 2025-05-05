@@ -24,8 +24,8 @@ const WhoWeAreSection = () => {
               designs, and structures. In fabrication, raw materials are
               strengthened or repaired.
             </p>
-            <p className="text-muted f_15 bg-light p-3" style={{ borderLeft: '2px solid #FD6500' }}>
               <blockquote>
+            <p className="text-muted f_15 bg-light p-3" style={{ borderLeft: '2px solid #FD6500' }}>
                 <i>
                   Having our high profile working experience, we emerged as the
                   best fabrication service providers in construction and building
@@ -37,8 +37,8 @@ const WhoWeAreSection = () => {
                   with our rapid performing capabilities, and in a very short time,
                   we received widespread customer interest.
                 </i>
-              </blockquote>
             </p>
+              </blockquote>
             <p className="text-muted f_15">
               We uniquely fabricate things to form metal into different sizes
               and shapes. We have more skilled and experienced technicians who

@@ -63,3 +63,44 @@
   }
   
 
+/* --------------------------- */
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slider-content h2,
+.slider-content h3,
+.slider-content h4,
+.slider-content .slider-btn {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideInFromLeft 1s ease forwards;
+}
+
+/* Delay animations for better staggered effect */
+.slider-content h2 {
+  animation-delay: 0.3s;
+}
+.slider-content h3 {
+  animation-delay: 0.6s;
+}
+.slider-content h4 {
+  animation-delay: 0.9s;
+}
+.slider-content .slider-btn {
+  animation-delay: 1.2s;
+}
+.carousel-item.active .slider-content h2,
+.carousel-item.active .slider-content h3,
+.carousel-item.active .slider-content h4,
+.carousel-item.active .slider-content .slider-btn {
+  animation-play-state: running;
+}

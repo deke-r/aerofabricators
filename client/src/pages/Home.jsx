@@ -5,7 +5,7 @@ import FactsSection from '../components/FactsSection'
 import ServicesSection from '../components/ServicesSection'
 import AboutUsSection from '../components/AboutUsSection'
 import ProjectGallery from '../components/ProjectGallery'
-import TestimonialsClientsSection from '../components/TestimonialsClientsSection.JSX'
+import TestimonialsClientsSection from '../components/TestimonialsClientsSection.jsx'
 import ContactForm from '../components/ContactForm'
 import CallToAction from '../components/CallToAction'
 

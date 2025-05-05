@@ -5,6 +5,7 @@ import img3 from "../assets/images/kyhpw0jrasxvvkf6vdr8.webp";
 import img4 from "../assets/images/ovvgauhux0958tzecpru.webp";
 import img5 from "../assets/images/b62otwha6qod7ofruwnw.webp";
 import img6 from "../assets/images/jgvad6kjambi8wcaokxz.webp";
+import '../styles/ProjectGallery.css';
 
 const projects = [
   {
@@ -108,39 +109,7 @@ const ProjectGallery = () => {
         </div>
       </div>
 
-      {/* Styles */}
-      <style jsx>{`
-        .custom-tabs .nav-link {
-          border: none;
-          border-bottom: 2px solid transparent;
-          color: #134377;
-          margin: 0 5px;
-          font-weight: 500;
-          transition: 0.3s;
-        }
-
-        .custom-tabs .nav-link.active {
-          border-bottom: 2px solid #fd6500;
-          color: #fd6500;
-        }
-
-        .project-overlay {
-          background-color: rgba(0, 0, 0, 0.7);
-          opacity: 0;
-          transition: all 0.4s ease;
-        }
-
-        .project-card:hover .project-overlay {
-          opacity: 1;
-        }
-
-        @media (max-width: 768px) {
-          .custom-tabs .nav-link {
-            font-size: 13px;
-            padding: 0.4rem 0.8rem;
-          }
-        }
-      `}</style>
+   
     </section>
   );
 };
