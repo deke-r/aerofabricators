@@ -3,10 +3,17 @@ import BannerSection from '../components/BannerSection'
 import banner from '../assets/images/contactus.webp'
 import ContactInfoSection from '../components/ContactInfoSection'
 import ContactForm from '../components/ContactForm'
-
+import PageHelmet from '../components/PageHelmet'
 const Contact = () => {
   return (
     <>
+    <PageHelmet
+  title="Contact us | Steel Fabrication company - Aerofabricators"
+  description="Get in touch with Aerofabricators for your steel fabrication needs."
+  keywords="contact, steel fabrication, aerofabricators, fabrication services"
+  canonicalUrl="https://aerofabricators.in/contact"
+/>
+    
     <BannerSection page='Contact' backgroundImage={banner}/>
     <ContactInfoSection/>
     <section className="map-section">

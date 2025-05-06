@@ -19,31 +19,31 @@ const MildSteelFabrication = ({
               <div className="widget">
                 <h3 className="text-uppercase fw-bold mb-4 f_15 text-dark border-left ps-3">Solutions</h3>
                 <ul className="nav flex-column service-menu">
-  <Link className="text-dark" to="/services/ms-fabrications">
-    <li className="bg-light my-2 py-2 text-center">Mild Steel Fabrication</li>
-  </Link>
-  <Link className="text-dark" to="/services/preengineeringstructure">
-    <li className="bg-light my-2 py-2 text-center">Pre Engineering Structure</li>
-  </Link>
-  <Link className="text-dark" to="/services/structural-fabrication">
-    <li className="bg-light my-2 py-2 text-center">Structural Fabrication</li>
-  </Link>
-  <Link className="text-dark" to="/services/ss-fabrication">
-    <li className="bg-light my-2 py-2 text-center">Stainless Steel Fabrication</li>
-  </Link>
-  <Link className="text-dark" to="/services/sheet-metal-component">
-    <li className="bg-light my-2 py-2 text-center">Sheet Metal Component</li>
-  </Link>
-  <Link className="text-dark" to="/services/sheet-metal-fabrication">
-    <li className="bg-light my-2 py-2 text-center">Sheet Metal Fabrication</li>
-  </Link>
-  <Link className="text-dark" to="/services/bailey-bridges-manufacturing">
-    <li className="bg-light my-2 py-2 text-center">Bridges</li>
-  </Link>
-  <Link className="text-dark" to="/services/canopy-manufacturers">
-    <li className="bg-light my-2 py-2 text-center">Canopy Manufacturers</li>
-  </Link>
-</ul>
+                  <Link className="text-dark" to="/ms-fabrications">
+                    <li className="bg-light my-2 py-2 text-center">Mild Steel Fabrication</li>
+                  </Link>
+                  <Link className="text-dark" to="/preengineeringstructure">
+                    <li className="bg-light my-2 py-2 text-center">Pre Engineering Structure</li>
+                  </Link>
+                  <Link className="text-dark" to="/structural-fabrication">
+                    <li className="bg-light my-2 py-2 text-center">Structural Fabrication</li>
+                  </Link>
+                  <Link className="text-dark" to="/ss-fabrication">
+                    <li className="bg-light my-2 py-2 text-center">Stainless Steel Fabrication</li>
+                  </Link>
+                  <Link className="text-dark" to="/sheet-metal-component">
+                    <li className="bg-light my-2 py-2 text-center">Sheet Metal Component</li>
+                  </Link>
+                  <Link className="text-dark" to="/sheet-metal-fabrication">
+                    <li className="bg-light my-2 py-2 text-center">Sheet Metal Fabrication</li>
+                  </Link>
+                  <Link className="text-dark" to="/bailey-bridges-manufacturing">
+                    <li className="bg-light my-2 py-2 text-center">Bridges</li>
+                  </Link>
+                  <Link className="text-dark" to="/canopy-manufacturers">
+                    <li className="bg-light my-2 py-2 text-center">Canopy Manufacturers</li>
+                  </Link>
+                </ul>
 
               </div>
             </div>
@@ -53,7 +53,7 @@ const MildSteelFabrication = ({
           <div className="col-xl-8 col-lg-8">
             <div className="content-inner-page">
               <h2 className="column-title mrt-0 f_15 fw-bold">{title}</h2>
-              
+
               <div className="row mt-4">
                 <div className="col-md-12">
                   <p className="text-muted" dangerouslySetInnerHTML={{ __html: description }} />
@@ -62,9 +62,9 @@ const MildSteelFabrication = ({
 
               {imageSrc && (
                 <div className="my-4">
-                  <img 
-                    src={imageSrc} 
-                    alt={imageAlt || 'Service Image'} 
+                  <img
+                    src={imageSrc}
+                    alt={imageAlt || 'Service Image'}
                     className="img-fluid"
                   />
                 </div>

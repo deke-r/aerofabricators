@@ -3,10 +3,18 @@ import BannerSection from '../components/BannerSection'
 import bannerimg from '../assets/images/Bridges Services Page Header.webp'
 import BridegesSiderbar from '../components/BridegesSiderbar'
 import msfa from '../assets/images/bailey-bridge-manufacturing.webp'
-
+import { Helmet } from 'react-helmet-async';
+import PageHelmet from '../components/PageHelmet'
 const BaileyBridgesManufacturing = () => {
   return (
     <>
+    <PageHelmet
+  title="Bailey Bridge Manufacture in Noida and Delhi, India - Aerofabricators"
+  description="Aerofabricators is your trusted Bailey Bridge Manufacturing Company. Reach out to us for exceptional manufacturing services! Get a quote Today."
+  keywords="Bailey Bridge Manufacturing, Bailey Bridge Manufacturing company, Bailey Bridge Manufacturer, Bailey Bridge Fabrication, portable Bridge Manufacturing, modular Bridge Manufacturing, prefabricated Bridge Manufacturing"
+  canonicalUrl="https://aerofabricators.in/bailey-bridges-manufacturing"
+/>
+
             <BannerSection page='BAILEY BRIDGES' backgroundImage={bannerimg} />
             <BridegesSiderbar
   title="Bailey Bridge Manufacturing in Noida and Delhi"

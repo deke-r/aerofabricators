@@ -3,10 +3,17 @@ import bannerimg from '../assets/images/services.webp'
 import structuralFabImage from '../assets/images/structural-fabrication.webp';
 import MildSteelFabrication from '../components/MildSteelFabrication';
 import ServicesSection from '../components/ServicesSection';
-
+import PageHelmet from '../components/PageHelmet';
 const StructuralFabrication = () => {
     return (
         <>
+        <PageHelmet
+  title="Structural Fabrication Services in Delhi NCR - Aerofabricators"
+  description="Aerofabricators is a Leading provider of structural fabrication services in Delhi. Contact us now for quality and exceptional service. Request a quote today!"
+  keywords="Structural Fabrication, Structural Fabrication Company, Structural Fabrication Company In Delhi, Structural Fabrication Services In Delhi, Structural Fabrication Manufacturer, Structural Fabrication Manufacturer In Delhi, Structural Fabrication Services Provider"
+  canonicalUrl="https://aerofabricators.in/structural-fabrication"
+/>
+
             <BannerSection page='STRUCTURAL FABRICATION' backgroundImage={bannerimg} />
 
             <MildSteelFabrication

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const BridegesSiderbar = ({
+const MildSteelSidebar = ({
   title,
   description,
   imageSrc,
@@ -19,19 +19,47 @@ const BridegesSiderbar = ({
               <div className="widget">
                 <h3 className="text-uppercase fw-bold mb-4 f_15 text-dark border-left ps-3">Solutions</h3>
                 <ul className="nav flex-column service-menu">
-                  <Link className="text-dark" to="/bailey-bridges-manufacturing">
-                    <li className="bg-light my-2 py-2 text-center">Bailey Bridges</li>
-                  </Link>
-                  <Link className="text-dark" to="/truss-bridges-manufacturer">
-                    <li className="bg-light my-2 py-2 text-center">Truss Bridges</li>
-                  </Link>
-                  <Link className="text-dark" to="/grider-bridges-manufacturing">
-                    <li className="bg-light my-2 py-2 text-center">Grider Bridges Amp Bug</li>
-                  </Link>
-                  <Link className="text-dark" to="/footover-bridges-manufacturer">
-                    <li className="bg-light my-2 py-2 text-center">Footover Bridges</li>
-                  </Link>
-                </ul>
+  <Link className="text-dark" to="/mild-steel-railing">
+    <li className="bg-light my-2 py-2 text-center">Ms Railing</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-staircase">
+    <li className="bg-light my-2 py-2 text-center">Ms Staircase</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-window">
+    <li className="bg-light my-2 py-2 text-center">Ms Window</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-door">
+    <li className="bg-light my-2 py-2 text-center">Ms Door</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-sliding-door">
+    <li className="bg-light my-2 py-2 text-center">Ms Sliding Door</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-table">
+    <li className="bg-light my-2 py-2 text-center">Ms Table</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-gate">
+    <li className="bg-light my-2 py-2 text-center">Ms Gate</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-furniture">
+    <li className="bg-light my-2 py-2 text-center">Ms Furniture</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-barricading">
+    <li className="bg-light my-2 py-2 text-center">Ms Barricading</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-structure">
+    <li className="bg-light my-2 py-2 text-center">Ms Structure</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-folding">
+    <li className="bg-light my-2 py-2 text-center">Ms Folding</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-grill">
+    <li className="bg-light my-2 py-2 text-center">Ms Grill</li>
+  </Link>
+  <Link className="text-dark" to="/mild-steel-rolling-shutter">
+    <li className="bg-light my-2 py-2 text-center">Ms Rolling Shutter</li>
+  </Link>
+</ul>
+
 
               </div>
             </div>
@@ -85,4 +113,4 @@ const BridegesSiderbar = ({
   );
 };
 
-export default BridegesSiderbar;
+export default MildSteelSidebar;

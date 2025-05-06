@@ -3,10 +3,17 @@ import BannerSection from '../components/BannerSection'
 import bannerimg from '../assets/images/Bridges Services Page Header.webp'
 import BridegesSiderbar from '../components/BridegesSiderbar'
 import msfa from '../assets/images/Girder Bridge.webp'
-
+import PageHelmet from '../components/PageHelmet'
 const GriderBridgesManufacturing = () => {
   return (
     <>
+    <PageHelmet
+  title="Girder Bridge Manufacturer in Noida - Aerofabricators"
+  description="Aerofabricators is a reliable Girder Bridge Manufacturer in Noida. We build bridges for a better tomorrow. Get started on your bridge project. Call us on +91 9319412012."
+  keywords="Girder Bridge Manufacturer in Noida, Girder Bridge Manufacturing in Noida, Girder Bridge Manufacturer service in Noida"
+  canonicalUrl="https://aerofabricators.in/grider-bridges-manufacturing"
+/>
+
             <BannerSection page='GRIDER BRIDGES
 ' backgroundImage={bannerimg} />
             <BridegesSiderbar

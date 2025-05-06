@@ -3,10 +3,17 @@ import bannerimg from '../assets/images/services.webp'
 import preEngineeringImage from '../assets/images/pre-engineering-structure.webp';
 import MildSteelFabrication from '../components/MildSteelFabrication';
 import ServicesSection from '../components/ServicesSection';
-
+import PageHelmet from '../components/PageHelmet';
 const Preengineeringstructure = () => {
     return (
         <>
+        <PageHelmet
+  title="Pre Engineered Structure in Delhi NCR - Aerofabricators"
+  description="Aerofabricators provides quality pre-engineered structure services in Delhi. Need efficient designs and long-lasting performance. Contact us now!"
+  keywords="Pre Engineering Structure, Pre Engineering Structure In Delhi, Pre Engineering Structure Company In Delhi Ncr, PEB Structure, Pre Engineering Building Structure"
+  canonicalUrl="https://aerofabricators.in/preengineeringstructure"
+/>
+
             <BannerSection page='PRE ENGINEERING STRUCTURE' backgroundImage={bannerimg} />
 
             <MildSteelFabrication

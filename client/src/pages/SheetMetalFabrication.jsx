@@ -3,10 +3,20 @@ import bannerimg from '../assets/images/services.webp'
 import preEngineeringImage from '../assets/images/sheet-metal-fabrication.webp';
 import MildSteelFabrication from '../components/MildSteelFabrication';
 import ServicesSection from '../components/ServicesSection';
-
+import PageHelmet from '../components/PageHelmet';
 const SheetMetalFabrication = () => {
     return (
         <>
+
+
+<PageHelmet
+  title="Sheet Metal Fabrication in Delhi, Noida - Aerofabricators"
+  description="Consult with Aerofabricators for quality Sheet Metal Fabrication in Delhi NCR. We provide customized services at competitive pricing and exceptional quality."
+  keywords="Sheet Metal Fabrication, Sheet Metal Fabrication In Delhi, Sheet Metal Fabrication Company, SM Fabrication Company In Delhi, Sheet Metal Fabrication Company In Delhi, Sheet Metal Fabrication Service In Delhi NCR, Sheet Metal Fabrication Manufacturer, Sheet Metal Fabrication Manufacturer Company in Delhi"
+  canonicalUrl="https://aerofabricators.in/sheet-metal-fabrication"
+/>
+
+
             <BannerSection page='SHEET METAL FABRICATION' backgroundImage={bannerimg} />
 
             <MildSteelFabrication

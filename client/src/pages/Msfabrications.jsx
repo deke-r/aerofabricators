@@ -6,10 +6,17 @@ import msfa from '../assets/images/ms-fabrication.webp';
 import CallToAction from '../components/CallToAction';
 import ExpertiseSection from '../components/ExpertiseSection';
 import WhyChooseUs from '../components/WhyChooseUs';
-
+import PageHelmet from '../components/PageHelmet';
 const Msfabrications = () => {
   return (
     <>
+    <PageHelmet
+  title="Mild Steel Fabrication in Delhi NCR - Aerofabricators"
+  description="Seeking trusted mild steel fabrication services in Delhi? Aerofabricators delivers high-quality products with a focus on durability and design excellence."
+  keywords="Mild Steel Fabrication, MS Fabrication In Delhi, Mild Steel Fabrication Company in Delhi, Mild Steel Fabrication Services Provider, Mild Steel Manufacturer, Mild Steel Manufacturer in Delhi, Mild Steel Suppliers, Mild Steel Exporters"
+  canonicalUrl="https://aerofabricators.in/ms-fabrication"
+/>
+
     <BannerSection page='MILD STEEL FABRICATION' backgroundImage={bannerimg}/>
     <MildSteelFabrication
   title="MILD STEEL FABRICATION SERVICES PROVIDERS"

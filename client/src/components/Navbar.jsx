@@ -23,56 +23,56 @@ const Navbar = () => {
               </span>
               <ul className="dropdown-menu shadow-sm">
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/ms-fabrications">
+                  <Link className="dropdown-item" to="/ms-fabrications">
                     Mild Steel Fabrication
                   </Link>
                 </li>
                 <hr className="mx-3 my-2" />
 
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/preengineeringstructure">
+                  <Link className="dropdown-item" to="/preengineeringstructure">
                     Pre Engineering Structure
                   </Link>
                 </li>
                 <hr className="mx-3 my-2" />
 
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/structural-fabrication">
+                  <Link className="dropdown-item" to="/structural-fabrication">
                     Structural Fabrication
                   </Link>
                 </li>
                 <hr className="mx-3 my-2" />
 
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/ss-fabrication">
+                  <Link className="dropdown-item" to="/ss-fabrication">
                     Stainless Steel Fabrication
                   </Link>
                 </li>
                 <hr className="mx-3 my-2" />
 
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/sheet-metal-component">
+                  <Link className="dropdown-item" to="/sheet-metal-component">
                     Sheet Metal Component
                   </Link>
                 </li>
                 <hr className="mx-3 my-2" />
 
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/sheet-metal-fabrication">
+                  <Link className="dropdown-item" to="/sheet-metal-fabrication">
                     Sheet Metal Fabrication
                   </Link>
                 </li>
                 <hr className="mx-3 my-2" />
 
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/bailey-bridges-manufacturing">
+                  <Link className="dropdown-item" to="/bailey-bridges-manufacturing">
                     Bridges Manufacture
                   </Link>
                 </li>
                 <hr className="mx-3 my-2" />
 
                 <li className="px-2">
-                  <Link className="dropdown-item" to="/services/canopy-manufacturers">
+                  <Link className="dropdown-item" to="/canopy-manufacturers">
                     Canopy
                   </Link>
                 </li>

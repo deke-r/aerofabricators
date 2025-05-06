@@ -3,10 +3,17 @@ import BannerSection from '../components/BannerSection'
 import bannerimg from '../assets/images/Bridges Services Page Header.webp'
 import BridegesSiderbar from '../components/BridegesSiderbar'
 import msfa from '../assets/images/Footover Bridge.webp'
-
+import PageHelmet from '../components/PageHelmet'
 const FootoverBridgesManufacturer = () => {
   return (
     <>
+    <PageHelmet
+  title="Foot over Bridge Manufacturer in Noida and Delhi NCR - Aerofabricators"
+  description="Get in touch with Aerofabricators for Foot over Bridge Manufacturing in Noida. We deliver Safe, durable, and custom solutions. Request Quote Today."
+  keywords="Foot over Bridge Manufacturer in Noida, Foot over Bridge in Noida"
+  canonicalUrl="https://aerofabricators.in/footover-bridges-manufacturer"
+/>
+
             <BannerSection page='FOOTOVER BRIDGES' backgroundImage={bannerimg} />
             <BridegesSiderbar
   title="Footover Bridge Manufacturing"

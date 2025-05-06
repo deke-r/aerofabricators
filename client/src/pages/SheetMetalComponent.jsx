@@ -3,10 +3,16 @@ import bannerimg from '../assets/images/services.webp'
 import preEngineeringImage from '../assets/images/sheet-metal-component.webp';
 import MildSteelFabrication from '../components/MildSteelFabrication';
 import ServicesSection from '../components/ServicesSection';
-
+import PageHelmet from '../components/PageHelmet';
 const SheetMetalComponent = () => {
     return (
         <>
+                <PageHelmet
+  title="Sheet Metal Component Manufacturer in Delhi - Aerofabricators"
+  description="Looking for a quality sheet metal components manufacturer in Delhi. Aerofabricators is trusted and provides quality products and exceptional service. Request a quote!"
+  keywords="Sheet Metal Component, Sheet Metal Component In Delhi, Sheet Metal Component Service In Delhi, Sheet Metal Component Service Provider In Delhi Ncr, Sheet Metal Component Manufacturer, Sheet Metal Component Manufacturer Company, Sheet Metal Component Exporter, Sheet Metal Component Supplier"
+  canonicalUrl="https://aerofabricators.in/sheet-metal-component"
+/>
             <BannerSection page='SHEET METAL COMPONENT' backgroundImage={bannerimg} />
 
             <MildSteelFabrication

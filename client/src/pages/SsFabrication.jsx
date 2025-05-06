@@ -5,10 +5,17 @@ import MildSteelFabrication from '../components/MildSteelFabrication';
 import WhyChooseUs from '../components/WhyChooseUs';
 import ssS from '../assets/images/SS-Staircase.webp'
 import ssR from '../assets/images/SS-Railing.webp'
-
+import PageHelmet from '../components/PageHelmet';
 const SsFabrication = () => {
     return (
         <>
+        <PageHelmet
+  title="Stainless Steel Fabrication in Delhi, Noida - Aerofabricators"
+  description="Get in touch with Aerofabricators to get top-quality stainless steel fabrication in Delhi. We deliver precise designs, durability, and customized services."
+  keywords="Stainless Steel In Delhi, Stainless Steel Company In Delhi NCR, SS Fabrication, SS Fabrication Company In Delhi NCR, Stainless Steel Fabrication , Stainless Steel Fabrication in Delhi, Stainless Steel Fabrication Services, Stainless Steel Manufacturer, Stainless Steel Manufacturer in Delhi NCR, Stainless Steel Manufacturer Company."
+  canonicalUrl="https://aerofabricators.in/ms-fabrication"
+/>
+
             <BannerSection page='STAINLESS STEEL FABRICATION' backgroundImage={bannerimg} />
             <MildSteelFabrication
   title="Professional Stainless Steel Fabrication Services"

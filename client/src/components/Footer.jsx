@@ -32,12 +32,12 @@ const Footer = () => {
 
                         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4 text-light ps-3 border-left">Services</h6>
-                            <p><Link to="/services/ms-fabrications" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Mild Steel Fabrication</Link></p>
-                            <p><Link to="/services/preengineeringstructure" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Pre Engineering Structure</Link></p>
-                            <p><Link to="/services/structural-fabrication" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Structural Fabrication</Link></p>
-                            <p><Link to="/services/ss-fabrication" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Stainless Steel Fabrication</Link></p>
-                            <p><Link to="/services/sheet-metal-component" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Sheet Metal Component</Link></p>
-                            <p><Link to="/services/bailey-bridges-manufacturing" className="text-decoration-none f_13 fw-semibold text-secondary list-arrow">Bridges</Link></p>
+                            <p><Link to="/ms-fabrications" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Mild Steel Fabrication</Link></p>
+                            <p><Link to="/preengineeringstructure" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Pre Engineering Structure</Link></p>
+                            <p><Link to="/structural-fabrication" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Structural Fabrication</Link></p>
+                            <p><Link to="/ss-fabrication" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Stainless Steel Fabrication</Link></p>
+                            <p><Link to="/sheet-metal-component" className="text-decoration-none list-arrow f_13 fw-semibold text-secondary">Sheet Metal Component</Link></p>
+                            <p><Link to="/bailey-bridges-manufacturing" className="text-decoration-none f_13 fw-semibold text-secondary list-arrow">Bridges</Link></p>
                         </div>
 
 
