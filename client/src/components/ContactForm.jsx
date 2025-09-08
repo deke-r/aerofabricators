@@ -19,7 +19,7 @@ const ContactForm = () => {
     setResponseMsg(null);
 
     try {
-      const apiUrl = import.meta.env.VITE_API_URL;
+      const apiUrl = 'http://192.168.1.10:4000';
       const res = await axios.post(`${apiUrl}/contact-form-data`, data);
 
       if (res.data.success) {
