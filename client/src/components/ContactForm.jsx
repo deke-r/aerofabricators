@@ -19,7 +19,7 @@ const ContactForm = () => {
     setResponseMsg(null);
 
     try {
-      const apiUrl = 'http://192.168.1.10:4000';
+      const apiUrl = 'https://aerofabricators.in/api';
       const res = await axios.post(`${apiUrl}/contact-form-data`, data);
 
       if (res.data.success) {
