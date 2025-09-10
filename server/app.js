@@ -37,57 +37,129 @@ router.post('/contact-form-data', async (req, res) => {
       });
     }
 
-    // Define recipients
-    // const recipients = [
-    //   'senseprojects@yahoo.com',
-    //   'senseprojects2019@gmail.com',
-    //   'info@senseprojects.in'
-    // ];
-
-     const recipients = [
-      'bhavishya.sense@gmail.com'
+    const recipients = [
+      'senseprojects@yahoo.com',
+      'senseprojects2019@gmail.com',
+      'info@aerofabricators.in'
     ];
+
+    //  const recipients = [
+    //   'bhavishya.sense@gmail.com'
+    // ];
 
     
 
     const mailOptions = {
-      from: process.env.MAILID,
+      // from: process.env.MAILID,
+      from: `"Aerofabricators" <${process.env.MAILID}>`,
       to: recipients,
       subject: 'New Contact Form Submission',
       html: `
-        <div style="font-family: Arial, sans-serif; font-size: 14px; color: #333; margin: 0; padding: 0;">
-          <div style="background-color: #134377; color: #fff; padding: 20px; text-align: center;">
-            <h2 style="margin: 0; font-size: 24px;">New Contact Form Submission</h2>
-            <p style="margin: 0;">You have a new message from the Aerofabricators website.</p>
-          </div>
-          <div style="padding: 20px;">
-            <table cellspacing="0" cellpadding="10" border="1" style="border-collapse: collapse; width: 100%; max-width: 600px; margin: 20px auto; border: 1px solid #ddd;">
-              <tr style="background-color: #f2f2f2;">
-                <td style="font-weight: bold; color: #0d141f;">Name</td>
-                <td>${user_name}</td>
-              </tr>
-              <tr style="background-color: #f9f9f9;">
-                <td style="font-weight: bold; color: #0d141f;">Email</td>
-                <td>${user_email}</td>
-              </tr>
-              <tr style="background-color: #f2f2f2;">
-                <td style="font-weight: bold; color: #0d141f;">Phone</td>
-                <td>${user_phone}</td>
-              </tr>
-              <tr style="background-color: #f9f9f9;">
-                <td style="font-weight: bold; color: #0d141f;">Subject</td>
-                <td>${subject}</td>
-              </tr>
-              <tr style="background-color: #f2f2f2;">
-                <td style="font-weight: bold; color: #0d141f;">Message</td>
-                <td>${user_message}</td>
-              </tr>
-            </table>
-          </div>
-          <div style="background-color: #f2f2f2; padding: 10px; text-align: center; font-size: 12px; color: #555;">
-            <p style="margin: 0;">This email was sent from the <strong>Aerofabricators website</strong>.</p>
-          </div>
-        </div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" width="600" style="border:1px solid #e4e4e4">
+          <tbody>
+            <tr>
+              <td valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%">
+                  <tbody>
+                    <tr>
+                      <td valign="top" style="text-align:center;padding-top:20px;padding-bottom:20px;font-family:Arial,'Helvetica Neue',Helvetica,sans-serif">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <td style="border-bottom:2px solid #202020">
+                                <h1 style="text-align:center;margin:0;font-size:24px;font-weight:bold;color:#202020">
+                                  New Contact Form Submission
+                                </h1>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p style="margin:10px 0 0 0;color:#666;font-size:14px">Aerofabricators Website</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%">
+                  <tbody>
+                    <tr>
+                      <td valign="top" style="padding-top:30px;padding-right:50px;padding-bottom:30px;padding-left:50px;font-family:Arial,'Helvetica Neue',Helvetica,sans-serif">
+                        <span style="color:#202020;font-family:helvetica;font-size:15px;line-height:24px">Hello,</span>
+                        <br><br>
+                        <span style="color:#202020;font-family:helvetica;font-size:15px;line-height:24px">
+                          You have received a new message from the contact form. Details are below:
+                        </span>
+                        <br><br>
+                        <table border="0" cellpadding="8" cellspacing="0" width="100%" style="border:1px solid #e4e4e4;border-collapse:collapse">
+                          <tbody>
+                            <tr style="background-color:#f8f9fa">
+                              <td width="30%" style="border:1px solid #e4e4e4;color:#202020;font-size:14px;font-weight:bold">Name</td>
+                              <td style="border:1px solid #e4e4e4;color:#202020;font-size:14px">${user_name}</td>
+                            </tr>
+                            <tr>
+                              <td width="30%" style="border:1px solid #e4e4e4;color:#202020;font-size:14px;font-weight:bold">Email</td>
+                              <td style="border:1px solid #e4e4e4;color:#202020;font-size:14px">${user_email}</td>
+                            </tr>
+                            <tr style="background-color:#f8f9fa">
+                              <td width="30%" style="border:1px solid #e4e4e4;color:#202020;font-size:14px;font-weight:bold">Phone</td>
+                              <td style="border:1px solid #e4e4e4;color:#202020;font-size:14px">${user_phone}</td>
+                            </tr>
+                            <tr>
+                              <td width="30%" style="border:1px solid #e4e4e4;color:#202020;font-size:14px;font-weight:bold">Subject</td>
+                              <td style="border:1px solid #e4e4e4;color:#202020;font-size:14px">${subject}</td>
+                            </tr>
+                            <tr style="background-color:#f8f9fa">
+                              <td width="30%" style="border:1px solid #e4e4e4;color:#202020;font-size:14px;font-weight:bold;vertical-align:top">Message</td>
+                              <td style="border:1px solid #e4e4e4;color:#202020;font-size:14px;white-space:pre-wrap">${user_message}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br><br>
+                        <span style="color:#202020;font-family:helvetica;font-size:15px;line-height:24px">
+                          This email was sent automatically from the Aerofabricators website.
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table border="0" cellpadding="0" cellspacing="0" width="600">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%">
+                          <tbody>
+                            <tr>
+                              <td valign="top" style="padding-top:20px;text-align:center;font-family:Arial,'Helvetica Neue',Helvetica,sans-serif">
+                                <span style="color:#666;font-family:helvetica;font-size:12px;line-height:18px">
+                                  For support, contact us at <a href="mailto:info@aerofabricators.in" target="_blank">info@aerofabricators.in</a>
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
       `
     };
 
