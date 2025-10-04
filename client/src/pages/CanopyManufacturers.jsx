@@ -12,7 +12,8 @@ const CanopyManufacturers  = () => {
         <PageHelmet
   title="Canopy Manufacturers & Suppliers in Noida, Delhi NCR and India"
   description="Aerofabricators is a trusted custom Canopy Manufacturers & Supplier. We provide quality outdoor shades for various needs in Noida, Delhi NCR, and Pan India."
-  keywords="Canopy Manufacturers, Canopy Manufacturers & Suppliers, Canopy Manufacturers in Noida, Canopy Manufacturers in Delhi, Canopy Suppliers in Noida, Canopy Suppliers in Delhi NCR, Canopy Manufacturers in India, Canopy Suppliers in India"
+  keywords="Canopy Company, Canopy Fabrication, Best Canopy Manufacturer, Canopy in Delhi, Canopy Fabrication in Delhi, Canopy Manufacturer in Delhi, Canopy Fabrication in Noida, Best Canopy Manufacturer Noida, Canopy Contractor in Noida, Canopy in Delhi NCR, Canopy Fabrication Services Delhi NCR, Professional Canopy Manufacturers in Noida, canopy manufacturer in Noida and Delhi, Best Canopy Manufacturers Company, best promotional Canopy manufacturer, best canopy printing service, canopy manufacturer company in Delhi Ncr
+,Canopy Manufacturers, Canopy Manufacturers & Suppliers, Canopy Manufacturers in Noida, Canopy Manufacturers in Delhi, Canopy Suppliers in Noida, Canopy Suppliers in Delhi NCR, Canopy Manufacturers in India, Canopy Suppliers in India"
   canonicalUrl="https://aerofabricators.in/canopy-manufacturers"
 />
 
