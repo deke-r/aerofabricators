@@ -54,7 +54,7 @@ const App = () => {
       <Route path='/canopy-manufacturers' element={<CanopyManufacturers />} />
       <Route path='/bailey-bridges-manufacturing' element={<BaileyBridgesManufacturing />} />
       <Route path='/truss-bridges-manufacturer' element={<TrussBridgesManufacturer />} />
-      <Route path='/grider-bridges-manufacturing' element={<GriderBridgesManufacturing />} />
+      <Route path='/girder-bridges-manufacturing' element={<GriderBridgesManufacturing />} />
       <Route path='/footover-bridges-manufacturer' element={<FootoverBridgesManufacturer />} />
 
 

@@ -19,11 +19,57 @@ const MildSteelDoor = () => {
           <BannerSection page='MS Door' backgroundImage={bannerimg} />
           <MildSteelSidebar
       title="MS Door Manufacturing"
-      description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`}
+      description={`When choosing a door for your home, office, or commercial space, strength and security are
+always the top priorities. A Mild Steel Door (MS Door) is one of the most reliable options
+available today. It combines durability, modern design, and affordability, making it the perfect
+choice for anyone who wants a door that lasts for years without compromising on style.
+At Aero Fabricators, we specialize in Mild Steel Door Fabrication, delivering doors that are
+crafted with precision and care. Each product is designed to withstand daily wear and tear,
+harsh weather, and even heavy usage, ensuring you get complete value for your investment.`}
       imageSrc={msfa}
       imageAlt="MS Door Manufacturing"
       subtitle="Structural Fabrication Services in Delhi"
-      secondaryDescription={`Aero Fabricators is a modern structural fabrication industry equipped with multi-machinery tools and plants, metals and minerals, oil and gas and manufacturing with more than 25 years of experience in structural fabrication. We also provide our services in technology structure, pipe racks, plant building structure (rolled and built-up), stack/chimney, ducting, cladding, etc. Structural fabrication is a process of cutting, bending and welding machinery tools to make structure. In this type of fabrication steel materials are strengthened or repaired. Steel fabrication is the pieces of steel that are put together to form the different sizes and shapes. Structural steel fabrication needs more skilled and experienced technicians who can transform raw materials into good marketing products.<br/><br/><br/>Structural steel fabrication is a process of cutting, bending and welding steel tools to make a structure. In this type of fabrication steel materials are strengthened or repaired. Steel fabrication is the pieces of steel that are put together to form the different sizes and shapes. Structural steel fabrication needs more skilled and experienced technicians who can transform raw material into good marketing products.<br/><br/><br/>We fabricate any structural steel products that you are looking for through different fabricating requirements, specification and code compliances. We convert steel machinery tools into definite shapes and designs. To complete the process of steel fabrication it will be logistics for your project and budget.`}
+      secondaryDescription={`Mild steel is known for its toughness, which makes it an excellent material for doors. Unlike
+wooden doors that may warp or require frequent maintenance, MS Doors are resistant to
+termites, fire, and corrosion when properly coated. They not only keep your property secure but
+also give you peace of mind for years.
+Another big advantage is affordability. A Mild Steel Door is budget-friendly compared to other
+heavy metal doors, while still offering the same level of strength. Plus, they can be customized
+to fit your exact needs — whether you prefer a sleek, modern design for your home or a robust
+industrial look for your workspace.
+<br/><br/><br/>Why Choose a Mild Steel Door ?<br/><br/><br/>Mild steel is known for its toughness, which makes it an excellent material for doors. Unlike
+wooden doors that may warp or require frequent maintenance, MS Doors are resistant to
+termites, fire, and corrosion when properly coated. They not only keep your property secure but
+also give you peace of mind for years.
+Another big advantage is affordability. A Mild Steel Door is budget-friendly compared to other
+heavy metal doors, while still offering the same level of strength. Plus, they can be customized
+to fit your exact needs — whether you prefer a sleek, modern design for your home or a robust
+industrial look for your workspace.
+
+
+<br/><br/><br/>
+Professional Mild Steel Door Fabrication<br/><br/><br/>
+Fabrication is where the real difference lies. At Aero Fabricators, our team uses advanced
+techniques to ensure every MS Door is perfectly engineered. From measuring and cutting to
+welding and finishing, every step is handled with attention to detail. The result is a door that not
+only performs well but also enhances the look of your property.
+We also offer custom finishes, allowing you to choose from powder coating, paint, or textured
+designs to match your interiors and exteriors.
+Mild Steel Door in Delhi NCR
+We are proud to serve customers across Delhi NCR, where our doors have become a trusted
+choice for both residential and commercial projects. Builders, homeowners, and businesses
+recognize Aero Fabricators as the Best Mild Steel Door Manufacturer in the region because of
+our focus on quality and service. From initial consultation to final installation, we make sure
+every client gets a seamless experience.<br/><br/><br/>
+
+Get the Best Mild Steel Door Today<br/><br/><br/>
+If you’re planning to upgrade your property’s security and style, investing in a Mild Steel Door in
+Delhi NCR is the right choice. At Aero Fabricators, we are here to help you select the perfect
+design, provide professional fabrication, and ensure hassle-free installation.
+Reach out to Aero Fabricators today and discover why so many customers trust us as their
+preferred MS Door experts.
+
+`}
     />
     </>
   )

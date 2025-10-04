@@ -12,10 +12,10 @@ const GriderBridgesManufacturing = () => {
   description="Aerofabricators is a reliable Girder Bridge Manufacturer in Noida. We build bridges for a better tomorrow. Get started on your bridge project. Call us on +91 9319412012."
   keywords="Girder Bridge, Girder Bridge Company, Girder Bridge Fabrication, Best Girder Bridge Manufacturer, Girder Bridge in Delhi, Girder Bridge Fabrication in Delhi, Girder Bridge Manufacturer in Delhi, Girder Bridge Fabrication in Noida, Best Girder Bridge Manufacturer Noida, Girder Bridge Contractor in Noida, Girder Bridge in Delhi NCR, Girder Bridge Fabrication Services Delhi NCR, Girder Bridge Manufacturing, Girder Bridge Manufacturer in Noida, Girder Bridge Manufacturer in Delhi Ncr
 ,Girder Bridge Manufacturer in Noida, Girder Bridge Manufacturing in Noida, Girder Bridge Manufacturer service in Noida"
-  canonicalUrl="https://aerofabricators.in/grider-bridges-manufacturing"
+  canonicalUrl="https://aerofabricators.in/girder-bridges-manufacturing"
 />
 
-            <BannerSection page='GRIDER BRIDGES
+            <BannerSection page='GIRDER BRIDGES
 ' backgroundImage={bannerimg} />
             <BridegesSiderbar
   title="Girder Bridge Manufacturing"

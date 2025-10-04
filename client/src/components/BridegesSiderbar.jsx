@@ -25,8 +25,8 @@ const BridegesSiderbar = ({
                   <Link className="text-dark" to="/truss-bridges-manufacturer">
                     <li className="bg-light my-2 py-2 text-center">Truss Bridges</li>
                   </Link>
-                  <Link className="text-dark" to="/grider-bridges-manufacturing">
-                    <li className="bg-light my-2 py-2 text-center">Grider Bridges Amp Bug</li>
+                  <Link className="text-dark" to="/girder-bridges-manufacturing">
+                    <li className="bg-light my-2 py-2 text-center">Girder Bridges Amp Bug</li>
                   </Link>
                   <Link className="text-dark" to="/footover-bridges-manufacturer">
                     <li className="bg-light my-2 py-2 text-center">Footover Bridges</li>
